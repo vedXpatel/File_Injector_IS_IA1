@@ -2,7 +2,7 @@
 
 ## 1. Description
 
-File Injector is a script that allows you to **store any file** (`.zip`, `.png`, `.txt`, `.gba`...) and its **filename** in an **image/audio** as **noise**, using [steganography](https://en.wikipedia.org/wiki/Steganography).
+File Injector is a script that allows you to **store any file** (`.zip`, `.png`, `.txt`, `.gba`...) and its **filename** in an **image/audio** as **noise**, using steganography.
 
 You can also choose to **encrypt** the input file before storing it.
 
