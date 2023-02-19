@@ -36,6 +36,10 @@ def get_out_path(base_path: str, file_type: str) -> str:
 
 
 def menu():
+    print("-------------------------------------")
+    print("Choose between the following options: ")
+    print("-------------------------------------")
+
     option = Options(["EXIT", "Inject file", "Extract file"]).get_choice()
 
     if option == 0: 
