@@ -12,7 +12,7 @@ from utils.read_write import *
 
 MOD_PREFIX = ""
 MOD_SUFIX = "_mod"
-STORE_RANDOM = False
+STORE_RANDOM = True
 TEST_MODE = False
 
 
