@@ -1,13 +1,6 @@
 from constants.constants import *
 from utils.folders import create_folders, folder_convert, folder2mp3
-from menu import menu
-
-create_folders(*PATHS)
-folder_convert(BASE_IMAGES_PATH, ".png", IMAGE_EXTS)
-folder2mp3(BASE_AUDIOS_PATH)
-
-from pathlib import Path
-import time
+# from menu import menu
 
 from config import *
 from constants.constants import *
@@ -17,6 +10,14 @@ from utils.ctxt import *
 from utils.injection import inject_file, extract_file
 from utils.input import get_path, get_bool
 from utils.read_write import *
+
+
+create_folders(*PATHS)
+folder_convert(BASE_IMAGES_PATH, ".png", IMAGE_EXTS)
+folder2mp3(BASE_AUDIOS_PATH)
+
+from pathlib import Path
+import time
 
 
 
@@ -144,3 +145,5 @@ def extract_file_func() -> None:
     print(ctxt(f"\nOutput file saved in {ctxt(out_path, Fore.YELLOW)}", Fore.GREEN))
     #---------------------------
     print(f"\nDone in {ctxt(round(time.time() - t1, 4), Fore.GREEN)} seconds")
+
+menu()
