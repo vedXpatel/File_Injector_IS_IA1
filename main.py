@@ -2,7 +2,6 @@ from constants.constants import *
 from utils.folders import create_folders, folder_convert, folder2mp3
 # from menu import menu
 
-from config import *
 from constants.constants import *
 from classes.Options import Options
 from utils.cryptography import get_fernet, decrypt_content
@@ -10,6 +9,11 @@ from utils.ctxt import *
 from utils.injection import inject_file, extract_file
 from utils.input import get_path, get_bool
 from utils.read_write import *
+
+MOD_PREFIX = ""
+MOD_SUFIX = "_mod"
+STORE_RANDOM = True
+TEST_MODE = True
 
 
 create_folders(*PATHS)
