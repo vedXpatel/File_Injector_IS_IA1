@@ -12,8 +12,8 @@ from utils.read_write import *
 
 MOD_PREFIX = ""
 MOD_SUFIX = "_mod"
-STORE_RANDOM = True
-TEST_MODE = True
+STORE_RANDOM = False
+TEST_MODE = False
 
 
 create_folders(*PATHS)
@@ -107,9 +107,7 @@ def inject_file_func() -> None:
 
 
 
-def extract_file_func() -> None:
-    #--------------------------------------
-    # Get the inputs
+def extract_file_func():
     if TEST_MODE:
         # mod_file_path = f"{MOD_AUDIOS_PATH}/winter-vivaldi_mod.wav"
         mod_file_path = f"{MOD_IMAGES_PATH}/1'7MP_mod.png"
