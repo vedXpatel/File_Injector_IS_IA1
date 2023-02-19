@@ -1,4 +1,4 @@
-# File Injector
+# File Steganographer
 
 ## 1. Description
 
